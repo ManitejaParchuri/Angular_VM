@@ -35,6 +35,10 @@ import { Sibling1Component } from './sibling1/sibling1.component';
 import { Sibling2Component } from './sibling2/sibling2.component';
 import { ReactFormsComponent } from './react-forms/react-forms.component';
 import { TempDrivenFormComponent } from './temp-driven-form/temp-driven-form.component';
+import { CorewebComponent } from './coreweb/coreweb.component';
+import { CorejavaComponent } from './corejava/corejava.component';
+import { AdvjavaComponent } from './advjava/advjava.component';
+import { AdvwebComponent } from './advweb/advweb.component';
 
 
 
@@ -73,7 +77,11 @@ import { TempDrivenFormComponent } from './temp-driven-form/temp-driven-form.com
     Sibling1Component,
     Sibling2Component,
     ReactFormsComponent,
-    TempDrivenFormComponent
+    TempDrivenFormComponent,
+    CorewebComponent,
+    CorejavaComponent,
+    AdvjavaComponent,
+    AdvwebComponent
 
     
     

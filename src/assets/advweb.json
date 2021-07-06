@@ -1,0 +1,4 @@
+[
+    {"courseId":105, "courseName":"Node Js","coursePrice":4000,"courseDescrption":"Node Js training for 25 days","courseImg":"assets/images/html.png"},
+    {"courseId":106, "courseName":"React Js","coursePrice":5000,"courseDescrption":"React Js training for 15 days","courseImg":"assets/images/css.png"}
+]

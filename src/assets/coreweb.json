@@ -1,0 +1,4 @@
+[
+    {"courseId":107, "courseName":"HTMl","coursePrice":6000,"courseDescrption":"HTMl training for 20 days","courseImg":"assets/images/js.png"},
+    {"courseId":108, "courseName":"angular","coursePrice":15000,"courseDescrption":"angular training for 50 days","courseImg":"assets/images/angular.jpg"}
+]
