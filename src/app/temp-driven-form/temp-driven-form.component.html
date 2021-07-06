@@ -1,0 +1,58 @@
+<div class="container">
+    <h2>RegistrationForm</h2><hr>
+    <form #userForm ='ngForm' (ngSubmit)='submitData(userForm.value)'>
+        <div class='form-group'>
+            <label>Name</label><input 
+            type='text' 
+            #nameRef='ngModel' 
+            class='form-control' 
+            name='uname' 
+            ngModel
+            required
+            minlength="5"
+            maxlength="9"
+            pattern="[a-z]+"
+            >
+        </div>
+        <div class='form-group'>
+            <label>city</label><input 
+            type='text' 
+            #cityRef='ngModel' 
+            class='form-control' 
+            name='uname' 
+            ngModel
+            required
+            minlength="5"
+            maxlength="9"
+            pattern="[a-z]+"
+            >
+        </div>  
+
+        
+        <div *ngIf='nameRef.errors && (nameRef.touched || nameRef.dirty)' class='text text-danger'>
+
+            <div [hidden]='!nameRef.errors.required'>Please enter name</div>
+            <div [hidden]='!nameRef.errors.minlength'>Please enter atlest 5 characters</div>
+            <div [hidden]='!nameRef.errors.pattern'>Invalid User name</div>
+
+        </div>
+        <div *ngIf='cityRef.errors && (cityRef.touched || cityRef.dirty)' class='text text-danger'>
+
+            <div [hidden]='!cityRef.errors.required'>Please enter city name</div>
+            <div [hidden]='!cityRef.errors.minlength'>Please enter atlest 5 characters</div>
+            <div [hidden]='!cityRef.errors.pattern'>Invalid City name</div>
+
+        </div>
+
+
+
+
+        
+       
+
+
+
+
+        <button [disabled]='!userForm.form.valid' type='submit' class='btn btn-success'>Submit</button>
+    </form>
+</div>

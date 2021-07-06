@@ -1,0 +1,5 @@
+[
+    {"productId":101, "productName":"football", "productPrice":350, "productImg":"assets/download.jpg"}, 
+    {"productId":101, "productName":"anime Poster", "productPrice":450 , "productImg":"assets/download1.jpg"}, 
+    {"productId":101, "productName":"Cricket", "productPrice":550,  "productImg":"assets/download3.jpg"}
+]
