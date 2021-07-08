@@ -7,6 +7,9 @@ import { CorewebComponent } from '../coreweb/coreweb.component';
 import { AdvwebComponent } from '../advweb/advweb.component';
 import { CorejavaComponent } from '../corejava/corejava.component';
 import { AdvjavaComponent } from '../advjava/advjava.component';
+import { ProductjsonComponent } from '../productjson/productjson.component';
+import { TempDrivenFormComponent } from '../temp-driven-form/temp-driven-form.component';
+import { ReactFormsComponent } from '../react-forms/react-forms.component';
 const routes:Routes = [
   {path:'web', component:WebComponent, 
   children:[
@@ -18,7 +21,10 @@ const routes:Routes = [
     {path:'corejava', component:CorejavaComponent },
     {path:'advjava', component:AdvjavaComponent},
    ]
- }
+ },
+ {path:'products',component:ProductjsonComponent},
+ {path:'tdf',component:TempDrivenFormComponent},
+ {path:'rf',component:ReactFormsComponent}
 ]
 
 
@@ -30,7 +36,7 @@ const routes:Routes = [
   exports:[RouterModule]
 })
 export class TechRoutingModule { }
-export const routingComponents = [WebComponent,JavaComponent]
+export const routingComponents = [WebComponent,JavaComponent,ProductjsonComponent,TempDrivenFormComponent,ReactFormsComponent]
 
 
 

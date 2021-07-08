@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AdvwebService {
-
-  url:string = 'assets/advweb.json'; //local
+  
+  url:string = 'assets/JsonModule/advwed.json'; //local
   //url:string = ''; //network RESTful
   constructor(private httpClient:HttpClient) { }
   getalladvwebcourse(){
